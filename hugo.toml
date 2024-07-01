@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+backgroundImage = 'img/back-soti.png'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = ["github.com/dzello/reveal-hugo"]
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params]
+backgroundImage = 'images/back-soti.png'
+
+[params.reveal_hugo.global]
+background = "url('img/back-soti.png') no-repeat center center"
+backgroundSize = "cover"
